@@ -2,19 +2,22 @@
 
 Repository: <https://github.com/Nextjingjing/go-algorithm-lab>
 
-## Progress Dashboard
+## Learning Plan
 
-The progress dashboard is available at `docs/index.html`.
+The practice roadmap is available at [`docs/learning-plan.md`](docs/learning-plan.md).
 
-GitHub Pages URL:
-<https://nextjingjing.github.io/go-algorithm-lab/>
+The evidence-based progress review is available at
+[`docs/learner-profile.md`](docs/learner-profile.md).
 
-To show it on GitHub, enable GitHub Pages:
+## AI Coaching
 
-1. Open repository `Settings`.
-2. Go to `Pages`.
-3. Set source to `Deploy from a branch`.
-4. Select the `main` branch and `/docs` folder.
+Codex and Claude share the `go-algorithm-coach` project skill. It reviews the
+learner's own implementation, maintains Go doc comments, tests and runnable
+examples when requested, and updates progress without revealing a full
+algorithm solution unless explicitly asked.
+
+- Canonical skill: `.agents/skills/go-algorithm-coach/SKILL.md`
+- Claude project path: `.claude/skills/go-algorithm-coach/SKILL.md`
 
 ## Run tests
 
@@ -73,7 +76,7 @@ go run ./cmd/two-sum
 
 - `algorithms/`: Main algorithm implementations, grouped by category.
 - `cmd/`: Small runnable examples with `main`.
-- `docs/`: Static pages for GitHub Pages, including the progress dashboard.
+- `docs/`: Learning plan and practice notes.
 - `tests/`: Separated test packages, grouped by algorithm category.
 
 Current layout:
@@ -112,7 +115,8 @@ go-algorithm-lab/
 │   └── two-sum/
 │       └── main.go
 ├── docs/
-│   └── index.html
+│   ├── learner-profile.md
+│   └── learning-plan.md
 ├── tests/
 │   ├── brute-force/
 │   │   ├── contains_duplicate_test.go

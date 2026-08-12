@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Algorithm Coach"
+  short_description: "Review Go practice with tests, docs, and feedback"
+  default_prompt: "Use $go-algorithm-coach to review my Go algorithm attempt and maintain its docs, tests, command example, and learning progress."
