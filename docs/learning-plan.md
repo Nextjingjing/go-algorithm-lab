@@ -12,9 +12,7 @@ other people can use.
 
 You are currently in the Foundation stage. The next exercises are:
 
-1. [Move Zeroes — LC #283](https://leetcode.com/problems/move-zeroes/) — a real
-   introduction to two pointers.
-2. Redo `ContainsDuplicate` with a map
+1. Redo `ContainsDuplicate` with a map
    ([LC #217](https://leetcode.com/problems/contains-duplicate/)).
 
 Do not look at the entire roadmap every time. Choose one exercise at a time.
@@ -104,7 +102,7 @@ An exercise is `done` when:
 | Binary Search | [LC #704](https://leetcode.com/problems/binary-search/) | Debugging checkpoint | add empty and exhausted-range tests |
 | Merge Sort | `Lab` | First complete version | trace 2- and 3-element inputs by hand |
 | Sum Array | `Lab` | Done | replay without notes |
-| Move Zeroes | [LC #283](https://leetcode.com/problems/move-zeroes/) | Brute-force draft done | rewrite with two pointers in `algorithms/two-pointers/` |
+| Move Zeroes | [LC #283](https://leetcode.com/problems/move-zeroes/) | Done with two pointers | replay without notes; explain invariant and `O(n)` |
 
 The agent helped with several `cmd/` examples, doc comments, and tests. The
 next evidence should therefore be learner-owned test design, not immediately

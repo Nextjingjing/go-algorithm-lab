@@ -105,6 +105,7 @@ hint-and-retry แล้วยังติด ให้เปลี่ยนเ�
 | --- | --- | --- | --- |
 | 2026-08-12 | Repository algorithms, tests, and coaching conversation to date | Created baseline; no retention score yet | Own test-case design and boundary contracts |
 | 2026-08-12 | Reworked `MoveZeroes` from repeated shifting to a one-pass two-pointer implementation after guided hints; matching tests pass | New evidence of applying a named pattern and preserving in-place behavior | Explain the two pointer invariant and `O(n)` complexity without notes |
+| 2026-08-12 | Traced `[0, 1, 0, 3, 12]` through each scan and correctly explained that `j` scans while `i` marks the next non-zero position | Stronger evidence of boundary/state reasoning for two pointers | Replay `MoveZeroes` tomorrow without notes |
 
 ## Rules For Future Updates
 
