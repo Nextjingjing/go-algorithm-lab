@@ -96,6 +96,25 @@ go test ./...
 If `go test ./...` prints `[no test files]` for packages without tests, explain
 that it is normal.
 
+## Algorithm Folder Organization
+
+When setting up a new exercise, place the implementation in the folder that
+matches the algorithm's primary pattern, and place its external-package tests
+in the matching folder under `tests/`.
+
+Use these categories when applicable:
+
+- Brute force: `algorithms/brute-force/` and `tests/brute-force/`
+- Two pointers: `algorithms/two-pointers/` and `tests/two-pointers/`
+- Divide and conquer: `algorithms/divide-conquer/` and `tests/divide-conquer/`
+- Hash map: `algorithms/hash-map/` and `tests/hash-map/`
+- Sliding window: `algorithms/sliding-window/` and `tests/sliding-window/`
+
+Do not put an exercise in `brute-force/` merely because it has a simple first
+attempt. If the exercise is intended to teach a named pattern, use that
+pattern's folder from the beginning. Keep the implementation, tests, command
+example, README layout, and roadmap classification consistent.
+
 ## Learning Review
 
 When the user asks for feedback, confidence, performance, or progress review,

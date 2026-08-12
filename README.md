@@ -71,6 +71,7 @@ go run ./cmd/merge-sort
 go run ./cmd/reverse-slice
 go run ./cmd/two-sum
 go run ./cmd/sum-array
+go run ./cmd/move-zeroes
 ```
 
 ## Structure
@@ -91,12 +92,15 @@ go-algorithm-lab/
 │   │   ├── find_max.go
 │   │   ├── is_sorted.go
 │   │   ├── linear_search.go
+│   │   ├── move_zeroes.go
 │   │   ├── reverse_slice.go
 │   │   ├── sum_array.go
 │   │   └── two_sum.go
-│   └── divide-conquer/
+│   ├── divide-conquer/
 │       ├── binary_search.go
 │       └── merge_sort.go
+│   └── two-pointers/
+│       └── move_zeroes.go
 ├── cmd/
 │   ├── binary-search/
 │   │   └── main.go
@@ -109,6 +113,8 @@ go-algorithm-lab/
 │   ├── is-sorted/
 │   │   └── main.go
 │   ├── linear-search/
+│   │   └── main.go
+│   ├── move-zeroes/
 │   │   └── main.go
 │   ├── merge-sort/
 │   │   └── main.go
@@ -130,9 +136,11 @@ go-algorithm-lab/
 │   │   ├── linear_search_test.go
 │   │   ├── reverse_slice_test.go
 │   │   └── two_sum_test.go
-│   └── divide-conquer/
+│   ├── divide-conquer/
 │       ├── binary_search_test.go
 │       └── merge_sort_test.go
+│   └── two-pointers/
+│       └── move_zeroes_test.go
 ├── go.mod
 └── README.md
 ```

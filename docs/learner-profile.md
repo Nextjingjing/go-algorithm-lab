@@ -104,6 +104,7 @@ hint-and-retry แล้วยังติด ให้เปลี่ยนเ�
 | Date | Evidence | Change | Next focus |
 | --- | --- | --- | --- |
 | 2026-08-12 | Repository algorithms, tests, and coaching conversation to date | Created baseline; no retention score yet | Own test-case design and boundary contracts |
+| 2026-08-12 | Reworked `MoveZeroes` from repeated shifting to a one-pass two-pointer implementation after guided hints; matching tests pass | New evidence of applying a named pattern and preserving in-place behavior | Explain the two pointer invariant and `O(n)` complexity without notes |
 
 ## Rules For Future Updates
 
