@@ -1,0 +1,28 @@
+# Go build outputs
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go coverage and profiling
+coverage.out
+*.cover
+*.prof
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Local environment files
+.env
+.env.*
+
+# Editor and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
