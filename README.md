@@ -44,28 +44,35 @@ because the related files have not changed.
 ```bash
 go run ./cmd/binary-search
 go run ./cmd/merge-sort
+go run ./cmd/two-sum
 ```
 
 ## Structure
 
-- `algorithms/`: โค้ดอัลกอริทึมหลัก แยกตามหมวด
-- `cmd/`: โปรแกรมตัวอย่างที่มี `main`
-- `tests/`: แบบทดสอบที่แยกตามหมวดของอัลกอริทึม
+- `algorithms/`: Main algorithm implementations, grouped by category.
+- `cmd/`: Small runnable examples with `main`.
+- `tests/`: Separated test packages, grouped by algorithm category.
 
 Current layout:
 
 ```text
 my-algorithm/
 ├── algorithms/
+│   ├── brute-force/
+│   │   └── two_sum.go
 │   └── divide-conquer/
 │       ├── binary_search.go
 │       └── merge_sort.go
 ├── cmd/
 │   ├── binary-search/
 │   │   └── main.go
-│   └── merge-sort/
+│   ├── merge-sort/
+│   │   └── main.go
+│   └── two-sum/
 │       └── main.go
 ├── tests/
+│   ├── brute-force/
+│   │   └── two_sum_test.go
 │   └── divide-conquer/
 │       ├── binary_search_test.go
 │       └── merge_sort_test.go
