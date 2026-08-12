@@ -62,6 +62,7 @@ go run ./cmd/binary-search
 go run ./cmd/contains-duplicate
 go run ./cmd/count-occurrences
 go run ./cmd/find-max
+go run ./cmd/is-sorted
 go run ./cmd/linear-search
 go run ./cmd/merge-sort
 go run ./cmd/reverse-slice
@@ -84,6 +85,7 @@ go-algorithm-lab/
 │   │   ├── contains_duplicate.go
 │   │   ├── count_occurrences.go
 │   │   ├── find_max.go
+│   │   ├── is_sorted.go
 │   │   ├── linear_search.go
 │   │   ├── reverse_slice.go
 │   │   └── two_sum.go
@@ -98,6 +100,8 @@ go-algorithm-lab/
 │   ├── count-occurrences/
 │   │   └── main.go
 │   ├── find-max/
+│   │   └── main.go
+│   ├── is-sorted/
 │   │   └── main.go
 │   ├── linear-search/
 │   │   └── main.go
@@ -114,6 +118,7 @@ go-algorithm-lab/
 │   │   ├── contains_duplicate_test.go
 │   │   ├── count_occurrences_test.go
 │   │   ├── find_max_test.go
+│   │   ├── is_sorted_test.go
 │   │   ├── linear_search_test.go
 │   │   ├── reverse_slice_test.go
 │   │   └── two_sum_test.go
