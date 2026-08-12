@@ -59,6 +59,7 @@ because the related files have not changed.
 
 ```bash
 go run ./cmd/binary-search
+go run ./cmd/contains-duplicate
 go run ./cmd/count-occurrences
 go run ./cmd/find-max
 go run ./cmd/linear-search
@@ -80,6 +81,7 @@ Current layout:
 go-algorithm-lab/
 ├── algorithms/
 │   ├── brute-force/
+│   │   ├── contains_duplicate.go
 │   │   ├── count_occurrences.go
 │   │   ├── find_max.go
 │   │   ├── linear_search.go
@@ -90,6 +92,8 @@ go-algorithm-lab/
 │       └── merge_sort.go
 ├── cmd/
 │   ├── binary-search/
+│   │   └── main.go
+│   ├── contains-duplicate/
 │   │   └── main.go
 │   ├── count-occurrences/
 │   │   └── main.go
@@ -107,6 +111,7 @@ go-algorithm-lab/
 │   └── index.html
 ├── tests/
 │   ├── brute-force/
+│   │   ├── contains_duplicate_test.go
 │   │   ├── count_occurrences_test.go
 │   │   ├── find_max_test.go
 │   │   ├── linear_search_test.go
