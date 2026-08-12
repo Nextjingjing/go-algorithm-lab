@@ -70,6 +70,7 @@ go run ./cmd/linear-search
 go run ./cmd/merge-sort
 go run ./cmd/reverse-slice
 go run ./cmd/two-sum
+go run ./cmd/sum-array
 ```
 
 ## Structure
@@ -91,6 +92,7 @@ go-algorithm-lab/
 │   │   ├── is_sorted.go
 │   │   ├── linear_search.go
 │   │   ├── reverse_slice.go
+│   │   ├── sum_array.go
 │   │   └── two_sum.go
 │   └── divide-conquer/
 │       ├── binary_search.go
@@ -111,6 +113,8 @@ go-algorithm-lab/
 │   ├── merge-sort/
 │   │   └── main.go
 │   ├── reverse-slice/
+│   │   └── main.go
+│   ├── sum-array/
 │   │   └── main.go
 │   └── two-sum/
 │       └── main.go
