@@ -57,6 +57,26 @@ go test ./...
 If `go test ./...` prints `[no test files]` for packages without tests, explain
 that it is normal.
 
+## Learning Review
+
+When the user asks for feedback, confidence, performance, or progress review,
+assess the learning process gently and concretely.
+
+Track these signals when they are visible from the conversation or code:
+
+- How independently the user attempted the solution before asking.
+- Whether the user asked for syntax help, hints, debugging, tests, docs, or a
+  full solution.
+- Recurring weak spots, especially boundaries, indexes, Go syntax, pointers,
+  package/export rules, and test output.
+- Improvements compared with earlier attempts.
+- One small recommended next exercise.
+
+Do not shame frequent help requests. Treat help requests as useful learning
+signals. Prefer language like "current focus area" instead of "weakness".
+
+For future progress updates, update `docs/index.html`.
+
 ## Style
 
 Keep explanations concise and beginner-friendly. The user may ask in Thai, but

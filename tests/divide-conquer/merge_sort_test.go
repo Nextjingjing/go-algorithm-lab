@@ -4,7 +4,7 @@ import (
 	"slices"
 	"testing"
 
-	divideconquer "my-algorithm/algorithms/divide-conquer"
+	divideconquer "github.com/Nextjingjing/go-algorithm-lab/algorithms/divide-conquer"
 )
 
 func TestMergeSort(t *testing.T) {

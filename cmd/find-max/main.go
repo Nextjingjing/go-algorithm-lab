@@ -7,10 +7,9 @@ import (
 )
 
 func main() {
-	nums := []int{2, 7, 11, 15}
-	target := 9
+	nums := []int{4, 9, 1, 12, 7}
 
-	result := bruteforce.TwoSum(nums, target)
+	result := bruteforce.FindMax(&nums)
 
 	fmt.Println(result)
 }

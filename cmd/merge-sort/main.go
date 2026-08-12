@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	divideconquer "my-algorithm/algorithms/divide-conquer"
+	divideconquer "github.com/Nextjingjing/go-algorithm-lab/algorithms/divide-conquer"
 )
 
 func main() {

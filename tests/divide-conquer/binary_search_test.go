@@ -3,7 +3,7 @@ package divideconquer_test
 import (
 	"testing"
 
-	divideconquer "my-algorithm/algorithms/divide-conquer"
+	divideconquer "github.com/Nextjingjing/go-algorithm-lab/algorithms/divide-conquer"
 )
 
 func TestBinarySearch(t *testing.T) {

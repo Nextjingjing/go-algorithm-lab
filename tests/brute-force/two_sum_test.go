@@ -4,7 +4,7 @@ import (
 	"slices"
 	"testing"
 
-	bruteforce "my-algorithm/algorithms/brute-force"
+	bruteforce "github.com/Nextjingjing/go-algorithm-lab/algorithms/brute-force"
 )
 
 func TestTwoSum(t *testing.T) {

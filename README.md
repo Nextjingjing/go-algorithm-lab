@@ -1,5 +1,21 @@
 # Algorithm Practice with Go
 
+Repository: <https://github.com/Nextjingjing/go-algorithm-lab>
+
+## Progress Dashboard
+
+The progress dashboard is available at `docs/index.html`.
+
+GitHub Pages URL:
+<https://nextjingjing.github.io/go-algorithm-lab/>
+
+To show it on GitHub, enable GitHub Pages:
+
+1. Open repository `Settings`.
+2. Go to `Pages`.
+3. Set source to `Deploy from a branch`.
+4. Select the `main` branch and `/docs` folder.
+
 ## Run tests
 
 Run only separated tests:
@@ -43,6 +59,7 @@ because the related files have not changed.
 
 ```bash
 go run ./cmd/binary-search
+go run ./cmd/find-max
 go run ./cmd/merge-sort
 go run ./cmd/two-sum
 ```
@@ -51,14 +68,16 @@ go run ./cmd/two-sum
 
 - `algorithms/`: Main algorithm implementations, grouped by category.
 - `cmd/`: Small runnable examples with `main`.
+- `docs/`: Static pages for GitHub Pages, including the progress dashboard.
 - `tests/`: Separated test packages, grouped by algorithm category.
 
 Current layout:
 
 ```text
-my-algorithm/
+go-algorithm-lab/
 ├── algorithms/
 │   ├── brute-force/
+│   │   ├── find_max.go
 │   │   └── two_sum.go
 │   └── divide-conquer/
 │       ├── binary_search.go
@@ -66,12 +85,17 @@ my-algorithm/
 ├── cmd/
 │   ├── binary-search/
 │   │   └── main.go
+│   ├── find-max/
+│   │   └── main.go
 │   ├── merge-sort/
 │   │   └── main.go
 │   └── two-sum/
 │       └── main.go
+├── docs/
+│   └── index.html
 ├── tests/
 │   ├── brute-force/
+│   │   ├── find_max_test.go
 │   │   └── two_sum_test.go
 │   └── divide-conquer/
 │       ├── binary_search_test.go
