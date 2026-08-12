@@ -60,6 +60,7 @@ because the related files have not changed.
 ```bash
 go run ./cmd/binary-search
 go run ./cmd/find-max
+go run ./cmd/linear-search
 go run ./cmd/merge-sort
 go run ./cmd/two-sum
 ```
@@ -78,6 +79,7 @@ go-algorithm-lab/
 ├── algorithms/
 │   ├── brute-force/
 │   │   ├── find_max.go
+│   │   ├── linear_search.go
 │   │   └── two_sum.go
 │   └── divide-conquer/
 │       ├── binary_search.go
@@ -86,6 +88,8 @@ go-algorithm-lab/
 │   ├── binary-search/
 │   │   └── main.go
 │   ├── find-max/
+│   │   └── main.go
+│   ├── linear-search/
 │   │   └── main.go
 │   ├── merge-sort/
 │   │   └── main.go
@@ -96,6 +100,7 @@ go-algorithm-lab/
 ├── tests/
 │   ├── brute-force/
 │   │   ├── find_max_test.go
+│   │   ├── linear_search_test.go
 │   │   └── two_sum_test.go
 │   └── divide-conquer/
 │       ├── binary_search_test.go
