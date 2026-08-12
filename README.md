@@ -63,6 +63,7 @@ go run ./cmd/count-occurrences
 go run ./cmd/find-max
 go run ./cmd/linear-search
 go run ./cmd/merge-sort
+go run ./cmd/reverse-slice
 go run ./cmd/two-sum
 ```
 
@@ -82,6 +83,7 @@ go-algorithm-lab/
 │   │   ├── count_occurrences.go
 │   │   ├── find_max.go
 │   │   ├── linear_search.go
+│   │   ├── reverse_slice.go
 │   │   └── two_sum.go
 │   └── divide-conquer/
 │       ├── binary_search.go
@@ -97,6 +99,8 @@ go-algorithm-lab/
 │   │   └── main.go
 │   ├── merge-sort/
 │   │   └── main.go
+│   ├── reverse-slice/
+│   │   └── main.go
 │   └── two-sum/
 │       └── main.go
 ├── docs/
@@ -106,6 +110,7 @@ go-algorithm-lab/
 │   │   ├── count_occurrences_test.go
 │   │   ├── find_max_test.go
 │   │   ├── linear_search_test.go
+│   │   ├── reverse_slice_test.go
 │   │   └── two_sum_test.go
 │   └── divide-conquer/
 │       ├── binary_search_test.go

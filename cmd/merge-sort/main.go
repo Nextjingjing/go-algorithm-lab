@@ -9,7 +9,7 @@ import (
 func main() {
 	data := []int{8, 3, 5, 1, 9, 2}
 
-	divideconquer.MergeSort(&data)
+	divideconquer.MergeSort(data)
 
 	fmt.Println(data)
 }

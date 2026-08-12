@@ -42,7 +42,7 @@ func TestMergeSort(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			divideconquer.MergeSort(&tt.data)
+			divideconquer.MergeSort(tt.data)
 
 			if !slices.Equal(tt.data, tt.want) {
 				t.Fatalf("MergeSort() = %v, want %v", tt.data, tt.want)
