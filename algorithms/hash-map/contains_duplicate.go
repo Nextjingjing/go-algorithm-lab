@@ -4,10 +4,11 @@ package hashmap
 func ContainsDuplicate(nums []int) bool {
 	counts := make(map[int]int)
 	for i := 0; i < len(nums); i++ {
-		if counts[nums[i]] == 0 {
-			counts[nums[i]] = 1
+		_, ok := counts[nums[i]]
+		if ok {
+			counts[nums[i]]++
 		} else {
-			counts[nums[i]] = counts[nums[i]] + 1
+			counts[nums[i]] = 1
 		}
 
 		if counts[nums[i]] > 1 {
