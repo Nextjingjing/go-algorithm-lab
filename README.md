@@ -63,6 +63,7 @@ because the related files have not changed.
 ```bash
 go run ./cmd/binary-search
 go run ./cmd/contains-duplicate
+go run ./cmd/hash-map
 go run ./cmd/count-occurrences
 go run ./cmd/find-max
 go run ./cmd/is-sorted
@@ -77,6 +78,7 @@ go run ./cmd/move-zeroes
 ## Structure
 
 - `algorithms/`: Main algorithm implementations, grouped by category.
+- `algorithms/hash-map/`: Hash-map based algorithm implementations.
 - `cmd/`: Small runnable examples with `main`.
 - `docs/`: Learning plan and practice notes.
 - `tests/`: Separated test packages, grouped by algorithm category.

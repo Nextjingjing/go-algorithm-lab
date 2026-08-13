@@ -106,6 +106,9 @@ hint-and-retry แล้วยังติด ให้เปลี่ยนเ�
 | 2026-08-12 | Repository algorithms, tests, and coaching conversation to date | Created baseline; no retention score yet | Own test-case design and boundary contracts |
 | 2026-08-12 | Reworked `MoveZeroes` from repeated shifting to a one-pass two-pointer implementation after guided hints; matching tests pass | New evidence of applying a named pattern and preserving in-place behavior | Explain the two pointer invariant and `O(n)` complexity without notes |
 | 2026-08-12 | Traced `[0, 1, 0, 3, 12]` through each scan and correctly explained that `j` scans while `i` marks the next non-zero position | Stronger evidence of boundary/state reasoning for two pointers | Replay `MoveZeroes` tomorrow without notes |
+| 2026-08-13 | Added a self-designed `SumArray` case for a slice containing only zeros, with the expected sum `0` | First recorded evidence of learner-owned table-test case design | Run the focused test and add one boundary-oriented case |
+| 2026-08-13 | Correctly identified `SumArray` time complexity as `Θ(n)`; initially explained empty input using the all-zero case and received a distinction between the two contracts | New evidence of beginning complexity explanation and boundary clarification | Explain why the auxiliary space is constant |
+| 2026-08-13 | Implemented `ContainsDuplicate` with a map and early return when a count exceeds one; the implementation handles empty input and repeated values | New evidence of independently applying the hash-map pattern after learning basic Go map syntax | Explain the map invariant and compare `map[int]int` with a presence map |
 
 ## Rules For Future Updates
 

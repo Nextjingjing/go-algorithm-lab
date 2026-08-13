@@ -27,6 +27,11 @@ func TestSumArray(t *testing.T) {
 			nums: []int{-2, 5, -1},
 			want: 2,
 		},
+		{
+			name: "zeros slice",
+			nums: []int{0, 0, 0},
+			want: 0,
+		},
 	}
 
 	for _, tt := range tests {

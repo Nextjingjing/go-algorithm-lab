@@ -97,7 +97,7 @@ An exercise is `done` when:
 | Count Occurrences | `Lab` | Done | replay without notes |
 | Is Sorted | `Lab` | Done | explain the `len(nums)-1` boundary |
 | Reverse Slice | `Lab` | Done | replay and explain `left < right` |
-| Contains Duplicate | [LC #217](https://leetcode.com/problems/contains-duplicate/) | Brute-force version done | redo later with a map |
+| Contains Duplicate | [LC #217](https://leetcode.com/problems/contains-duplicate/) | Brute-force and hash-map versions done | replay without notes; explain map invariant |
 | Two Sum | [LC #1](https://leetcode.com/problems/two-sum/) | Brute-force version done | redo later with a map |
 | Binary Search | [LC #704](https://leetcode.com/problems/binary-search/) | Debugging checkpoint | add empty and exhausted-range tests |
 | Merge Sort | `Lab` | First complete version | trace 2- and 3-element inputs by hand |
