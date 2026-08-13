@@ -71,6 +71,8 @@ go run ./cmd/linear-search
 go run ./cmd/merge-sort
 go run ./cmd/reverse-slice
 go run ./cmd/two-sum
+go run ./cmd/two-sum-map
+go run ./cmd/valid-anagram
 go run ./cmd/sum-array
 go run ./cmd/move-zeroes
 ```
@@ -124,7 +126,11 @@ go-algorithm-lab/
 │   │   └── main.go
 │   ├── sum-array/
 │   │   └── main.go
-│   └── two-sum/
+│   ├── two-sum/
+│   │   └── main.go
+│   ├── two-sum-map/
+│   │   └── main.go
+│   └── valid-anagram/
 │       └── main.go
 ├── docs/
 │   ├── learner-profile.md

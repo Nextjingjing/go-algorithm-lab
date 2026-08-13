@@ -56,6 +56,8 @@
   ว่าห้าม empty; เหมาะสำหรับฝึกออกแบบ function signature
 - `TwoSum` ทำ brute force ได้แล้ว แต่ยังไม่มี Go doc comment; รอบ hash map ควร
   เริ่มจากอธิบาย trade-off ก่อนลงมือ
+- `Valid Anagram` ทำ hash-map version แล้ว โดยนับจำนวนตัวอักษรและเพิ่ม tests กับ
+  `cmd/` example; ควร replay จากความจำและพิจารณาเงื่อนไข Unicode ต่อไป
 - tests ที่มีเป็น table-driven และครอบคลุมพื้นฐานค่อนข้างดี แต่เป็นงานที่ agent
   ช่วยสร้าง จึงควรเปลี่ยนบทบาทครั้งถัดไป: ผู้เรียนออกแบบ cases, agent ตรวจ
 
@@ -96,8 +98,8 @@ hint-and-retry แล้วยังติด ให้เปลี่ยนเ�
 
 ## Next Small Action
 
-ทำ `SumArray` (`Lab`) โดยก่อนเขียน function ให้จด test cases เอง 3 case และ
-เขียนหนึ่งประโยคว่า empty slice ควรคืนอะไร จากนั้นค่อยให้ agent review
+Replay `Valid Anagram` จากความจำ โดยเขียน invariant หนึ่งประโยคว่า map เก็บอะไร
+และจด test cases เอง 3 case ก่อนให้ agent review
 
 ## Review History
 
@@ -109,6 +111,7 @@ hint-and-retry แล้วยังติด ให้เปลี่ยนเ�
 | 2026-08-13 | Added a self-designed `SumArray` case for a slice containing only zeros, with the expected sum `0` | First recorded evidence of learner-owned table-test case design | Run the focused test and add one boundary-oriented case |
 | 2026-08-13 | Correctly identified `SumArray` time complexity as `Θ(n)`; initially explained empty input using the all-zero case and received a distinction between the two contracts | New evidence of beginning complexity explanation and boundary clarification | Explain why the auxiliary space is constant |
 | 2026-08-13 | Implemented `ContainsDuplicate` with a map and early return when a count exceeds one; the implementation handles empty input and repeated values | New evidence of independently applying the hash-map pattern after learning basic Go map syntax | Explain the map invariant and compare `map[int]int` with a presence map |
+| 2026-08-13 | Implemented `Valid Anagram` with two character-count maps, corrected the `byte` versus `string` key mismatch, and discussed `O(n)` time and `O(k)` space | New evidence of applying counting-map logic and debugging a Go map type error with guided help; tests and cmd example were agent-generated | Replay the exercise and explain the character-count invariant without notes |
 
 ## Rules For Future Updates
 

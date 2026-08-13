@@ -10,10 +10,10 @@ other people can use.
 
 ## Read Only This Section First
 
-You are currently in the Foundation stage. The next exercises are:
+You are currently in the Foundation stage. The next exercise is:
 
-1. Redo `ContainsDuplicate` with a map
-   ([LC #217](https://leetcode.com/problems/contains-duplicate/)).
+1. Replay `Valid Anagram` from memory
+   ([LC #242](https://leetcode.com/problems/valid-anagram/)).
 
 Do not look at the entire roadmap every time. Choose one exercise at a time.
 
@@ -98,7 +98,8 @@ An exercise is `done` when:
 | Is Sorted | `Lab` | Done | explain the `len(nums)-1` boundary |
 | Reverse Slice | `Lab` | Done | replay and explain `left < right` |
 | Contains Duplicate | [LC #217](https://leetcode.com/problems/contains-duplicate/) | Brute-force and hash-map versions done | replay without notes; explain map invariant |
-| Two Sum | [LC #1](https://leetcode.com/problems/two-sum/) | Brute-force version done | redo later with a map |
+| Two Sum | [LC #1](https://leetcode.com/problems/two-sum/) | Brute-force and hash-map versions done | replay without notes; explain why indexes differ |
+| Valid Anagram | [LC #242](https://leetcode.com/problems/valid-anagram/) | Implementation, tests, and cmd example complete | replay without notes; explain character-count invariant |
 | Binary Search | [LC #704](https://leetcode.com/problems/binary-search/) | Debugging checkpoint | add empty and exhausted-range tests |
 | Merge Sort | `Lab` | First complete version | trace 2- and 3-element inputs by hand |
 | Sum Array | `Lab` | Done | replay without notes |
