@@ -119,6 +119,7 @@ Replay `Valid Anagram` จากความจำ โดยเขียน inva
 | 2026-08-14 | Implemented `MinValue` by initializing from the first element, scanning the remaining values, and handling negative values; focused tests passed | New evidence of correct initialization under an explicit non-empty precondition and independent implementation of a linear scan | Explain `O(n)` time and `O(1)` auxiliary space; improve the empty-input panic message if keeping that guard |
 | 2026-08-14 | Implemented `RemoveElement` with a read index and write index; focused tests passed for removing all, none, and mixed occurrences | New evidence of applying the read/write two-pointer pattern and validating the `k` plus `nums[:k]` contract | Explain why the write index never moves ahead of the read index and consider whether `k` duplicates `w` |
 | 2026-08-15 | Completed `RemoveElement` with learner-owned implementation cleanup, matching tests, and a runnable `cmd` example | New evidence of finishing an in-place two-pointer exercise and validating the public prefix contract | Replay the read/write invariant without notes |
+| 2026-08-15 | Implemented `IsPalindrome` by filtering alphanumeric characters, normalizing case, and comparing from both ends; focused tests passed | New evidence of applying two pointers after a preprocessing step and handling punctuation/case cases | Explain the extra `O(n)` space and decide whether the contract should support Unicode or ASCII only |
 
 ## Rules For Future Updates
 

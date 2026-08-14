@@ -100,7 +100,7 @@ An exercise is `done` when:
 | Contains Duplicate | [LC #217](https://leetcode.com/problems/contains-duplicate/) | Brute-force and hash-map versions done | replay without notes; explain map invariant |
 | Two Sum | [LC #1](https://leetcode.com/problems/two-sum/) | Brute-force and hash-map versions done | replay without notes; explain why indexes differ |
 | Valid Anagram | [LC #242](https://leetcode.com/problems/valid-anagram/) | Implementation, tests, and cmd example complete | replay without notes; explain character-count invariant |
-| Binary Search | [LC #704](https://leetcode.com/problems/binary-search/) | Debugging checkpoint | add empty and exhausted-range tests |
+| Binary Search | [LC #704](https://leetcode.com/problems/binary-search/) | Implementation and tests complete | replay without notes; explain `left > right` base case |
 | Merge Sort | `Lab` | First complete version | trace 2- and 3-element inputs by hand |
 | Sum Array | `Lab` | Done | replay without notes |
 | Move Zeroes | [LC #283](https://leetcode.com/problems/move-zeroes/) | Done with two pointers | replay without notes; explain invariant and `O(n)` |
