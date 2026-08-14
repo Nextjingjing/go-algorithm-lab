@@ -104,6 +104,7 @@ An exercise is `done` when:
 | Merge Sort | `Lab` | First complete version | trace 2- and 3-element inputs by hand |
 | Sum Array | `Lab` | Done | replay without notes |
 | Move Zeroes | [LC #283](https://leetcode.com/problems/move-zeroes/) | Done with two pointers | replay without notes; explain invariant and `O(n)` |
+| Remove Element | [LC #27](https://leetcode.com/problems/remove-element/) | Implementation, tests, and cmd example complete | replay without notes; explain read/write indexes and `nums[:k]` |
 
 The agent helped with several `cmd/` examples, doc comments, and tests. The
 next evidence should therefore be learner-owned test design, not immediately
