@@ -49,6 +49,12 @@ func TestIsAnagram(t *testing.T) {
 			t:    "",
 			want: true,
 		},
+		{
+			name: "case-sensitive characters",
+			s:    "OOOOo",
+			t:    "OOOOO",
+			want: false,
+		},
 	}
 
 	for _, tt := range tests {

@@ -12,6 +12,10 @@ func binarySearch(
 	left int,
 	right int,
 ) int {
+	if left > right {
+		return -1
+	}
+
 	// mid is the index in the middle of the current search range.
 	mid := (right + left) / 2
 
@@ -40,6 +44,9 @@ func BinarySearch(
 	x int,
 ) int {
 	// left and right describe the full inclusive range of the slice.
+	if len(d) == 0 {
+		return -1
+	}
 	left := 0
 	right := len(d) - 1
 	return binarySearch(d, x, left, right)

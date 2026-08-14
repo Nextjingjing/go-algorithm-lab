@@ -31,6 +31,36 @@ func TestBinarySearch(t *testing.T) {
 			x:    0,
 			want: -1,
 		},
+		{
+			name: "empty slice",
+			data: []int{},
+			x:    2,
+			want: -1,
+		},
+		{
+			name: "x is less than slice's minimum value",
+			data: []int{1, 3, 5, 7, 9},
+			x:    0,
+			want: -1,
+		},
+		{
+			name: "x is more than slice's maximum value",
+			data: []int{1, 3, 5, 7, 9},
+			x:    10,
+			want: -1,
+		},
+		{
+			name: "one element",
+			data: []int{1},
+			x:    1,
+			want: 0,
+		},
+		{
+			name: "found at last",
+			data: []int{1, 1, 1, 1, 1, 1, 1, 1, 1, 2},
+			x:    2,
+			want: 9,
+		},
 	}
 
 	for _, tt := range tests {
