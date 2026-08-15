@@ -79,6 +79,7 @@ go run ./cmd/remove-element
 go run ./cmd/valid-palindrome
 go run ./cmd/two-sum-sorted
 go run ./cmd/pivot-index
+go run ./cmd/product-except-self
 ```
 
 ## Structure
@@ -108,7 +109,8 @@ go-algorithm-lab/
 │   │   ├── binary_search.go
 │   │   └── merge_sort.go
 │   ├── prefix-suffix/
-│   │   └── pivot_index.go
+│   │   ├── pivot_index.go
+│   │   └── product_except_self.go
 │   └── two-pointers/
 │       ├── move_zeroes.go
 │       ├── remove_element.go
@@ -132,6 +134,8 @@ go-algorithm-lab/
 │   ├── remove-element/
 │   │   └── main.go
 │   ├── pivot-index/
+│   │   └── main.go
+│   ├── product-except-self/
 │   │   └── main.go
 │   ├── two-sum-sorted/
 │   │   └── main.go
@@ -165,7 +169,8 @@ go-algorithm-lab/
 │   │   ├── binary_search_test.go
 │   │   └── merge_sort_test.go
 │   ├── prefix-suffix/
-│   │   └── pivot_index_test.go
+│   │   ├── pivot_index_test.go
+│   │   └── product_except_self_test.go
 │   └── two-pointers/
 │       ├── move_zeroes_test.go
 │       ├── remove_element_test.go

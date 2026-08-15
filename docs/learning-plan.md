@@ -107,7 +107,8 @@ An exercise is `done` when:
 | Remove Element | [LC #27](https://leetcode.com/problems/remove-element/) | Implementation, tests, and cmd example complete | replay without notes; explain read/write indexes and `nums[:k]` |
 | Valid Palindrome | [LC #125](https://leetcode.com/problems/valid-palindrome/) | Implementation, tests, and cmd example complete | replay without notes; explain normalization and two pointers |
 | Two Sum II | [LC #167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Implementation, tests, and cmd example complete | replay without notes; explain why sorted order determines pointer movement |
-| Find Pivot Index | [LC #724](https://leetcode.com/problems/find-pivot-index/) | Setup complete; implementation in progress | explain the left sum, total sum, and right sum relationship |
+| Find Pivot Index | [LC #724](https://leetcode.com/problems/find-pivot-index/) | Implementation, tests, and cmd example complete | replay without notes; explain `total - leftSum - nums[i]` |
+| Product Except Self | [LC #238](https://leetcode.com/problems/product-of-array-except-self/) | Implementation, tests, and cmd example complete | replay without notes; explain prefix/suffix products and `O(1)` extra space |
 
 The agent helped with several `cmd/` examples, doc comments, and tests. The
 next evidence should therefore be learner-owned test design, not immediately
