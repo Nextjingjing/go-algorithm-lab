@@ -76,6 +76,30 @@ beginner-friendly and concrete.
 
 ## Maintain Supporting Files
 
+### Setup lab workflow
+
+When the user says “setup lab” or asks to set up a new exercise, setup means
+creating the learning scaffold, not solving the algorithm.
+
+- Create the implementation file with the package, exported function signature,
+  accurate Go doc comment, and a `TODO` stub (for example, `panic("TODO: ...")`).
+- Create external-package, table-driven tests under the matching `tests/`
+  category. Tests may be generated as a scaffold, but must reflect the stated
+  contract and should fail or remain pending until the learner implements the
+  algorithm.
+- Create a small runnable `cmd/<algorithm>/main.go` example that calls the
+  function. It may not run successfully while the implementation is a TODO;
+  that is expected during setup.
+- Update README layout/run entries and mark the roadmap item as setup or in
+  progress, not complete.
+- Do not write, infer, or “helpfully” fill in the algorithm logic during setup.
+  Do not refactor an existing algorithm body unless the user separately asks
+  for review, debugging, or implementation.
+
+After setup, report the created implementation, test, and cmd paths and clearly
+state that the learner must implement the algorithm before tests and cmd can
+pass.
+
 When the user asks for docs, tests, and a command example:
 
 ### Go doc comment

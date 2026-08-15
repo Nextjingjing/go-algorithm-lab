@@ -78,6 +78,7 @@ go run ./cmd/move-zeroes
 go run ./cmd/remove-element
 go run ./cmd/valid-palindrome
 go run ./cmd/two-sum-sorted
+go run ./cmd/pivot-index
 ```
 
 ## Structure
@@ -104,8 +105,10 @@ go-algorithm-lab/
 │   │   ├── sum_array.go
 │   │   └── two_sum.go
 │   ├── divide-conquer/
-│       ├── binary_search.go
-│       └── merge_sort.go
+│   │   ├── binary_search.go
+│   │   └── merge_sort.go
+│   ├── prefix-suffix/
+│   │   └── pivot_index.go
 │   └── two-pointers/
 │       ├── move_zeroes.go
 │       ├── remove_element.go
@@ -128,9 +131,11 @@ go-algorithm-lab/
 │   │   └── main.go
 │   ├── remove-element/
 │   │   └── main.go
-│   ├── valid-palindrome/
+│   ├── pivot-index/
 │   │   └── main.go
 │   ├── two-sum-sorted/
+│   │   └── main.go
+│   ├── valid-palindrome/
 │   │   └── main.go
 │   ├── merge-sort/
 │   │   └── main.go
@@ -157,11 +162,15 @@ go-algorithm-lab/
 │   │   ├── reverse_slice_test.go
 │   │   └── two_sum_test.go
 │   ├── divide-conquer/
-│       ├── binary_search_test.go
-│       └── merge_sort_test.go
+│   │   ├── binary_search_test.go
+│   │   └── merge_sort_test.go
+│   ├── prefix-suffix/
+│   │   └── pivot_index_test.go
 │   └── two-pointers/
 │       ├── move_zeroes_test.go
-│       └── remove_element_test.go
+│       ├── remove_element_test.go
+│       ├── two_sum_sorted_test.go
+│       └── valid_palindrome_test.go
 ├── go.mod
 └── README.md
 ```
