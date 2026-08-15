@@ -76,6 +76,8 @@ go run ./cmd/valid-anagram
 go run ./cmd/sum-array
 go run ./cmd/move-zeroes
 go run ./cmd/remove-element
+go run ./cmd/valid-palindrome
+go run ./cmd/two-sum-sorted
 ```
 
 ## Structure
@@ -106,7 +108,9 @@ go-algorithm-lab/
 │       └── merge_sort.go
 │   └── two-pointers/
 │       ├── move_zeroes.go
-│       └── remove_element.go
+│       ├── remove_element.go
+│       ├── valid_palindrome.go
+│       └── two_sum_sorted.go
 ├── cmd/
 │   ├── binary-search/
 │   │   └── main.go
@@ -123,6 +127,10 @@ go-algorithm-lab/
 │   ├── move-zeroes/
 │   │   └── main.go
 │   ├── remove-element/
+│   │   └── main.go
+│   ├── valid-palindrome/
+│   │   └── main.go
+│   ├── two-sum-sorted/
 │   │   └── main.go
 │   ├── merge-sort/
 │   │   └── main.go

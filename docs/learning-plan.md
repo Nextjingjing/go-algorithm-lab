@@ -105,6 +105,8 @@ An exercise is `done` when:
 | Sum Array | `Lab` | Done | replay without notes |
 | Move Zeroes | [LC #283](https://leetcode.com/problems/move-zeroes/) | Done with two pointers | replay without notes; explain invariant and `O(n)` |
 | Remove Element | [LC #27](https://leetcode.com/problems/remove-element/) | Implementation, tests, and cmd example complete | replay without notes; explain read/write indexes and `nums[:k]` |
+| Valid Palindrome | [LC #125](https://leetcode.com/problems/valid-palindrome/) | Implementation, tests, and cmd example complete | replay without notes; explain normalization and two pointers |
+| Two Sum II | [LC #167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Implementation, tests, and cmd example complete | replay without notes; explain why sorted order determines pointer movement |
 
 The agent helped with several `cmd/` examples, doc comments, and tests. The
 next evidence should therefore be learner-owned test design, not immediately

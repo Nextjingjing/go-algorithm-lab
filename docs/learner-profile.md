@@ -120,6 +120,8 @@ Replay `Valid Anagram` จากความจำ โดยเขียน inva
 | 2026-08-14 | Implemented `RemoveElement` with a read index and write index; focused tests passed for removing all, none, and mixed occurrences | New evidence of applying the read/write two-pointer pattern and validating the `k` plus `nums[:k]` contract | Explain why the write index never moves ahead of the read index and consider whether `k` duplicates `w` |
 | 2026-08-15 | Completed `RemoveElement` with learner-owned implementation cleanup, matching tests, and a runnable `cmd` example | New evidence of finishing an in-place two-pointer exercise and validating the public prefix contract | Replay the read/write invariant without notes |
 | 2026-08-15 | Implemented `IsPalindrome` by filtering alphanumeric characters, normalizing case, and comparing from both ends; focused tests passed | New evidence of applying two pointers after a preprocessing step and handling punctuation/case cases | Explain the extra `O(n)` space and decide whether the contract should support Unicode or ASCII only |
+| 2026-08-15 | Added and ran the `Valid Palindrome` cmd example after completing its implementation and tests | New evidence of completing the runnable-example workflow for a two-pointer exercise | Replay normalization and pointer movement without notes |
+| 2026-08-15 | Implemented `TwoSumSorted` with 1-based output indexes and pointer movement based on the sum; focused tests passed | New evidence of understanding the sorted-order invariant and completing another two-pointer exercise | Explain why `sum < target` moves `left` and why `sum > target` moves `right` |
 
 ## Rules For Future Updates
 
