@@ -111,6 +111,7 @@ An exercise is `done` when:
 | Product Except Self | [LC #238](https://leetcode.com/problems/product-of-array-except-self/) | Implementation, tests, and cmd example complete | replay without notes; explain prefix/suffix products and `O(1)` extra space |
 | Best Time to Buy and Sell Stock | [LC #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Implementation, tests, and cmd example complete — greedy | explain the minimum-price invariant and distinguish greedy from sliding window |
 | Best Time to Buy and Sell Stock (sliding-window practice) | [LC #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Setup complete; alternate implementation in progress | define what the window contains and when its left edge moves |
+| Maximum Sum of Subarray of Size K | `Lab` | Setup complete; implementation in progress — fixed window | explain add-right/remove-left and why the window size stays `k` |
 
 The agent helped with several `cmd/` examples, doc comments, and tests. The
 next evidence should therefore be learner-owned test design, not immediately

@@ -82,6 +82,7 @@ go run ./cmd/pivot-index
 go run ./cmd/product-except-self
 go run ./cmd/best-time-to-buy-and-sell-stock
 go run ./cmd/best-time-to-buy-and-sell-stock-sliding
+go run ./cmd/max-sum-subarray
 ```
 
 ## Structure
@@ -117,7 +118,8 @@ go-algorithm-lab/
 │   │   ├── pivot_index.go
 │   │   └── product_except_self.go
 │   ├── sliding-window/
-│   │   └── best_time_to_buy_and_sell_stock.go
+│   │   ├── best_time_to_buy_and_sell_stock.go
+│   │   └── max_sum_subarray.go
 │   └── two-pointers/
 │       ├── move_zeroes.go
 │       ├── remove_element.go
@@ -127,6 +129,8 @@ go-algorithm-lab/
 │   ├── best-time-to-buy-and-sell-stock/
 │   │   └── main.go
 │   ├── best-time-to-buy-and-sell-stock-sliding/
+│   │   └── main.go
+│   ├── max-sum-subarray/
 │   │   └── main.go
 │   ├── binary-search/
 │   │   └── main.go
@@ -185,7 +189,8 @@ go-algorithm-lab/
 │   │   ├── pivot_index_test.go
 │   │   └── product_except_self_test.go
 │   ├── sliding-window/
-│   │   └── best_time_to_buy_and_sell_stock_test.go
+│   │   ├── best_time_to_buy_and_sell_stock_test.go
+│   │   └── max_sum_subarray_test.go
 │   └── two-pointers/
 │       ├── move_zeroes_test.go
 │       ├── remove_element_test.go
