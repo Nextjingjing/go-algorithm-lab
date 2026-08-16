@@ -80,12 +80,15 @@ go run ./cmd/valid-palindrome
 go run ./cmd/two-sum-sorted
 go run ./cmd/pivot-index
 go run ./cmd/product-except-self
+go run ./cmd/best-time-to-buy-and-sell-stock
+go run ./cmd/best-time-to-buy-and-sell-stock-sliding
 ```
 
 ## Structure
 
 - `algorithms/`: Main algorithm implementations, grouped by category.
 - `algorithms/hash-map/`: Hash-map based algorithm implementations.
+- `algorithms/greedy/`: Greedy algorithms that make locally optimal choices.
 - `cmd/`: Small runnable examples with `main`.
 - `docs/`: Learning plan and practice notes.
 - `tests/`: Separated test packages, grouped by algorithm category.
@@ -108,15 +111,23 @@ go-algorithm-lab/
 │   ├── divide-conquer/
 │   │   ├── binary_search.go
 │   │   └── merge_sort.go
+│   ├── greedy/
+│   │   └── best_time_to_buy_and_sell_stock.go
 │   ├── prefix-suffix/
 │   │   ├── pivot_index.go
 │   │   └── product_except_self.go
+│   ├── sliding-window/
+│   │   └── best_time_to_buy_and_sell_stock.go
 │   └── two-pointers/
 │       ├── move_zeroes.go
 │       ├── remove_element.go
 │       ├── valid_palindrome.go
 │       └── two_sum_sorted.go
 ├── cmd/
+│   ├── best-time-to-buy-and-sell-stock/
+│   │   └── main.go
+│   ├── best-time-to-buy-and-sell-stock-sliding/
+│   │   └── main.go
 │   ├── binary-search/
 │   │   └── main.go
 │   ├── contains-duplicate/
@@ -168,9 +179,13 @@ go-algorithm-lab/
 │   ├── divide-conquer/
 │   │   ├── binary_search_test.go
 │   │   └── merge_sort_test.go
+│   ├── greedy/
+│   │   └── best_time_to_buy_and_sell_stock_test.go
 │   ├── prefix-suffix/
 │   │   ├── pivot_index_test.go
 │   │   └── product_except_self_test.go
+│   ├── sliding-window/
+│   │   └── best_time_to_buy_and_sell_stock_test.go
 │   └── two-pointers/
 │       ├── move_zeroes_test.go
 │       ├── remove_element_test.go
