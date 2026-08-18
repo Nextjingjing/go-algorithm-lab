@@ -113,6 +113,7 @@ An exercise is `done` when:
 | Best Time to Buy and Sell Stock (sliding-window practice) | [LC #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Setup complete; alternate implementation in progress | define what the window contains and when its left edge moves |
 | Maximum Sum of Subarray of Size K | `Lab` | Setup complete; implementation in progress — fixed window | explain add-right/remove-left and why the window size stays `k` |
 | Maximum Consecutive Ones | [LC #485](https://leetcode.com/problems/max-consecutive-ones/) | Setup complete; implementation in progress — variable window | explain how a zero changes the current window and when to update the maximum |
+| Longest Substring Without Repeating Characters | [LC #3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Setup complete; implementation in progress — variable window | define what makes the window invalid and when `left` must move |
 
 The agent helped with several `cmd/` examples, doc comments, and tests. The
 next evidence should therefore be learner-owned test design, not immediately

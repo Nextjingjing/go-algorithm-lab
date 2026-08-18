@@ -84,6 +84,7 @@ go run ./cmd/best-time-to-buy-and-sell-stock
 go run ./cmd/best-time-to-buy-and-sell-stock-sliding
 go run ./cmd/max-sum-subarray
 go run ./cmd/max-consecutive-ones
+go run ./cmd/longest-substring-without-repeating-characters
 ```
 
 ## Structure
@@ -120,6 +121,7 @@ go-algorithm-lab/
 │   │   └── product_except_self.go
 │   ├── sliding-window/
 │   │   ├── best_time_to_buy_and_sell_stock.go
+│   │   ├── longest_substring_without_repeating_characters.go
 │   │   ├── max_consecutive_ones.go
 │   │   └── max_sum_subarray.go
 │   └── two-pointers/
@@ -135,6 +137,8 @@ go-algorithm-lab/
 │   ├── max-sum-subarray/
 │   │   └── main.go
 │   ├── max-consecutive-ones/
+│   │   └── main.go
+│   ├── longest-substring-without-repeating-characters/
 │   │   └── main.go
 │   ├── binary-search/
 │   │   └── main.go
@@ -194,6 +198,7 @@ go-algorithm-lab/
 │   │   └── product_except_self_test.go
 │   ├── sliding-window/
 │   │   ├── best_time_to_buy_and_sell_stock_test.go
+│   │   ├── longest_substring_without_repeating_characters_test.go
 │   │   ├── max_consecutive_ones_test.go
 │   │   └── max_sum_subarray_test.go
 │   └── two-pointers/
