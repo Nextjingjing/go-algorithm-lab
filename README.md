@@ -81,6 +81,7 @@ go run ./cmd/two-sum-sorted
 go run ./cmd/pivot-index
 go run ./cmd/product-except-self
 go run ./cmd/highest-altitude
+go run ./cmd/left-right-difference
 go run ./cmd/best-time-to-buy-and-sell-stock
 go run ./cmd/best-time-to-buy-and-sell-stock-sliding
 go run ./cmd/max-sum-subarray
@@ -119,6 +120,7 @@ go-algorithm-lab/
 │   │   └── best_time_to_buy_and_sell_stock.go
 │   ├── prefix-suffix/
 │   │   ├── highest_altitude.go
+│   │   ├── left_right_difference.go
 │   │   ├── pivot_index.go
 │   │   └── product_except_self.go
 │   ├── sliding-window/
@@ -164,6 +166,8 @@ go-algorithm-lab/
 │   │   └── main.go
 │   ├── highest-altitude/
 │   │   └── main.go
+│   ├── left-right-difference/
+│   │   └── main.go
 │   ├── two-sum-sorted/
 │   │   └── main.go
 │   ├── valid-palindrome/
@@ -199,6 +203,7 @@ go-algorithm-lab/
 │   │   └── best_time_to_buy_and_sell_stock_test.go
 │   ├── prefix-suffix/
 │   │   ├── highest_altitude_test.go
+│   │   ├── left_right_difference_test.go
 │   │   ├── pivot_index_test.go
 │   │   └── product_except_self_test.go
 │   ├── sliding-window/
