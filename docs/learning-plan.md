@@ -109,6 +109,7 @@ An exercise is `done` when:
 | Two Sum II | [LC #167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Implementation, tests, and cmd example complete | replay without notes; explain why sorted order determines pointer movement |
 | Find Pivot Index | [LC #724](https://leetcode.com/problems/find-pivot-index/) | Implementation, tests, and cmd example complete | replay without notes; explain `total - leftSum - nums[i]` |
 | Product Except Self | [LC #238](https://leetcode.com/problems/product-of-array-except-self/) | Implementation, tests, and cmd example complete | replay without notes; explain prefix/suffix products and `O(1)` extra space |
+| Find the Highest Altitude | [LC #1732](https://leetcode.com/problems/find-the-highest-altitude/) | Implementation, tests, and cmd example complete | explain the running altitude, why starting `0` is a candidate, and the extra space used |
 | Best Time to Buy and Sell Stock | [LC #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Implementation, tests, and cmd example complete — greedy | explain the minimum-price invariant and distinguish greedy from sliding window |
 | Best Time to Buy and Sell Stock (sliding-window practice) | [LC #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Setup complete; alternate implementation in progress | define what the window contains and when its left edge moves |
 | Maximum Sum of Subarray of Size K | `Lab` | Setup complete; implementation in progress — fixed window | explain add-right/remove-left and why the window size stays `k` |
@@ -143,7 +144,7 @@ Approximate duration: 6–10 weeks. Add no more than two new exercises per week.
 | --- | --- |
 | Hash map | [Contains Duplicate — LC #217](https://leetcode.com/problems/contains-duplicate/), [Two Sum — LC #1](https://leetcode.com/problems/two-sum/), [Valid Anagram — LC #242](https://leetcode.com/problems/valid-anagram/) |
 | Two pointers | [Valid Palindrome — LC #125](https://leetcode.com/problems/valid-palindrome/), [Two Sum II — LC #167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |
-| Prefix/suffix | [Find Pivot Index — LC #724](https://leetcode.com/problems/find-pivot-index/), [Product Except Self — LC #238](https://leetcode.com/problems/product-of-array-except-self/) |
+| Prefix/suffix | [Find Pivot Index — LC #724](https://leetcode.com/problems/find-pivot-index/), [Product Except Self — LC #238](https://leetcode.com/problems/product-of-array-except-self/), [Find the Highest Altitude — LC #1732](https://leetcode.com/problems/find-the-highest-altitude/) |
 | Sliding window | Best Time to Buy and Sell Stock — LC #121 (practice variant) |
 
 Pass this phase when you can propose a brute-force approach for an array
