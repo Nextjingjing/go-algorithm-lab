@@ -87,6 +87,7 @@ go run ./cmd/best-time-to-buy-and-sell-stock-sliding
 go run ./cmd/max-sum-subarray
 go run ./cmd/max-consecutive-ones
 go run ./cmd/longest-substring-without-repeating-characters
+go run ./cmd/valid-parentheses
 ```
 
 ## Structure
@@ -94,6 +95,7 @@ go run ./cmd/longest-substring-without-repeating-characters
 - `algorithms/`: Main algorithm implementations, grouped by category.
 - `algorithms/hash-map/`: Hash-map based algorithm implementations.
 - `algorithms/greedy/`: Greedy algorithms that make locally optimal choices.
+- `algorithms/stack/`: Stack-based algorithms for nested or ordered state.
 - `cmd/`: Small runnable examples with `main`.
 - `docs/`: Learning plan and practice notes.
 - `tests/`: Separated test packages, grouped by algorithm category.
@@ -128,6 +130,8 @@ go-algorithm-lab/
 │   │   ├── longest_substring_without_repeating_characters.go
 │   │   ├── max_consecutive_ones.go
 │   │   └── max_sum_subarray.go
+│   ├── stack/
+│   │   └── valid_parentheses.go
 │   └── two-pointers/
 │       ├── move_zeroes.go
 │       ├── remove_element.go
@@ -211,6 +215,8 @@ go-algorithm-lab/
 │   │   ├── longest_substring_without_repeating_characters_test.go
 │   │   ├── max_consecutive_ones_test.go
 │   │   └── max_sum_subarray_test.go
+│   ├── stack/
+│   │   └── valid_parentheses_test.go
 │   └── two-pointers/
 │       ├── move_zeroes_test.go
 │       ├── remove_element_test.go
