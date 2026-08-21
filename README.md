@@ -88,6 +88,7 @@ go run ./cmd/max-sum-subarray
 go run ./cmd/max-consecutive-ones
 go run ./cmd/longest-substring-without-repeating-characters
 go run ./cmd/valid-parentheses
+go run ./cmd/min-stack
 ```
 
 ## Structure
@@ -131,6 +132,7 @@ go-algorithm-lab/
 │   │   ├── max_consecutive_ones.go
 │   │   └── max_sum_subarray.go
 │   ├── stack/
+│   │   ├── min_stack.go
 │   │   └── valid_parentheses.go
 │   └── two-pointers/
 │       ├── move_zeroes.go
@@ -216,6 +218,7 @@ go-algorithm-lab/
 │   │   ├── max_consecutive_ones_test.go
 │   │   └── max_sum_subarray_test.go
 │   ├── stack/
+│   │   ├── min_stack_test.go
 │   │   └── valid_parentheses_test.go
 │   └── two-pointers/
 │       ├── move_zeroes_test.go
