@@ -40,7 +40,11 @@ func (q *MyQueue) Peek() int {
 	if len(q.queue) > 0 {
 		return q.queue[len(q.queue)-1]
 	}
-	return q.stack[0]
+	for i := len(q.stack) - 1; i >= 0; i-- {
+		q.queue = append(q.queue, q.stack[len(q.stack)-1])
+		q.stack = q.stack[:len(q.stack)-1]
+	}
+	return q.queue[len(q.queue)-1]
 }
 
 // Empty reports whether the queue contains no values.
