@@ -12,8 +12,8 @@ other people can use.
 
 You are currently in the Foundation stage. The next exercise is:
 
-1. Replay `Valid Anagram` from memory
-   ([LC #242](https://leetcode.com/problems/valid-anagram/)).
+1. Implement `Implement Queue using Stacks` from the setup scaffold
+   ([LC #232](https://leetcode.com/problems/implement-queue-using-stacks/)).
 
 Do not look at the entire roadmap every time. Choose one exercise at a time.
 
@@ -118,6 +118,7 @@ An exercise is `done` when:
 | Longest Substring Without Repeating Characters | [LC #3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Setup complete; implementation in progress — variable window | define what makes the window invalid and when `left` must move |
 | Valid Parentheses | [LC #20](https://leetcode.com/problems/valid-parentheses/) | Implementation and tests complete; cmd example added — stack | explain the stack invariant and replay without notes |
 | Min Stack | [LC #155](https://leetcode.com/problems/min-stack/) | Implementation and tests complete; cmd example added — stack | replay the two-stack invariant without notes |
+| Implement Queue using Stacks | [LC #232](https://leetcode.com/problems/implement-queue-using-stacks/) | Setup complete; implementation in progress — queue | explain what each stack represents and when values need to move |
 
 The agent helped with several `cmd/` examples, doc comments, and tests. The
 next evidence should therefore be learner-owned test design, not immediately

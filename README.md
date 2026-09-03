@@ -89,6 +89,7 @@ go run ./cmd/max-consecutive-ones
 go run ./cmd/longest-substring-without-repeating-characters
 go run ./cmd/valid-parentheses
 go run ./cmd/min-stack
+go run ./cmd/queue-using-stacks
 ```
 
 ## Structure
@@ -97,6 +98,7 @@ go run ./cmd/min-stack
 - `algorithms/hash-map/`: Hash-map based algorithm implementations.
 - `algorithms/greedy/`: Greedy algorithms that make locally optimal choices.
 - `algorithms/stack/`: Stack-based algorithms for nested or ordered state.
+- `algorithms/queue/`: Queue-based algorithms and FIFO data structures.
 - `cmd/`: Small runnable examples with `main`.
 - `docs/`: Learning plan and practice notes.
 - `tests/`: Separated test packages, grouped by algorithm category.
@@ -134,6 +136,8 @@ go-algorithm-lab/
 │   ├── stack/
 │   │   ├── min_stack.go
 │   │   └── valid_parentheses.go
+│   ├── queue/
+│   │   └── implement_queue_using_stacks.go
 │   └── two-pointers/
 │       ├── move_zeroes.go
 │       ├── remove_element.go
@@ -220,6 +224,8 @@ go-algorithm-lab/
 │   ├── stack/
 │   │   ├── min_stack_test.go
 │   │   └── valid_parentheses_test.go
+│   ├── queue/
+│   │   └── implement_queue_using_stacks_test.go
 │   └── two-pointers/
 │       ├── move_zeroes_test.go
 │       ├── remove_element_test.go
