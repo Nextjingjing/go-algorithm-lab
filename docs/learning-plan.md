@@ -12,10 +12,8 @@ other people can use.
 
 You are currently in the Foundation stage. The current replay focus is:
 
-1. Explain `Implement Queue using Stacks`
-   ([LC #232](https://leetcode.com/problems/implement-queue-using-stacks/)) without
-   looking at the code: what each stack stores and why a transfer is only needed
-   when the output stack is empty.
+1. Explain `Queue Using Slice` (`Lab`) without looking at the code: why removing
+   the front value leaves `items[1:]`, and why this preserves FIFO order.
 
 Do not look at the entire roadmap every time. Choose one exercise at a time.
 
@@ -121,6 +119,7 @@ An exercise is `done` when:
 | Valid Parentheses | [LC #20](https://leetcode.com/problems/valid-parentheses/) | Implementation and tests complete; cmd example added — stack | explain the stack invariant and replay without notes |
 | Min Stack | [LC #155](https://leetcode.com/problems/min-stack/) | Implementation and tests complete; cmd example added — stack | replay the two-stack invariant without notes |
 | Implement Queue using Stacks | [LC #232](https://leetcode.com/problems/implement-queue-using-stacks/) | Implementation, tests, and cmd example complete — queue | explain the two-stack invariant and amortized `O(1)` operations |
+| Queue Using Slice | `Lab` | Implementation, tests, and cmd example complete — queue | explain FIFO order and the time cost of removing the front element |
 
 The agent helped with several `cmd/` examples, doc comments, and tests. The
 next evidence should therefore be learner-owned test design, not immediately
