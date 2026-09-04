@@ -12,8 +12,9 @@ other people can use.
 
 You are currently in the Foundation stage. The current replay focus is:
 
-1. Explain `Queue Using Slice` (`Lab`) without looking at the code: why removing
-   the front value leaves `items[1:]`, and why this preserves FIFO order.
+1. Explain `Stack Using Queues`
+   ([LC #225](https://leetcode.com/problems/implement-stack-using-queues/)) without
+   looking at the code: why `Pop` rotates `n-1` values and why `Top` rotates `n`.
 
 Do not look at the entire roadmap every time. Choose one exercise at a time.
 
@@ -120,6 +121,7 @@ An exercise is `done` when:
 | Min Stack | [LC #155](https://leetcode.com/problems/min-stack/) | Implementation and tests complete; cmd example added — stack | replay the two-stack invariant without notes |
 | Implement Queue using Stacks | [LC #232](https://leetcode.com/problems/implement-queue-using-stacks/) | Implementation, tests, and cmd example complete — queue | explain the two-stack invariant and amortized `O(1)` operations |
 | Queue Using Slice | `Lab` | Implementation, tests, and cmd example complete — queue | explain FIFO order and the time cost of removing the front element |
+| Stack Using Queues | [LC #225](https://leetcode.com/problems/implement-stack-using-queues/) | Implementation, tests, and cmd example complete — stack | explain queue rotations and `O(n)` Pop/Top cost |
 
 The agent helped with several `cmd/` examples, doc comments, and tests. The
 next evidence should therefore be learner-owned test design, not immediately

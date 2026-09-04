@@ -91,6 +91,7 @@ go run ./cmd/valid-parentheses
 go run ./cmd/min-stack
 go run ./cmd/queue-using-stacks
 go run ./cmd/queue-using-slice
+go run ./cmd/stack-using-queues
 ```
 
 ## Structure
@@ -135,6 +136,7 @@ go-algorithm-lab/
 │   │   ├── max_consecutive_ones.go
 │   │   └── max_sum_subarray.go
 │   ├── stack/
+│   │   ├── implement_stack_using_queues.go
 │   │   ├── min_stack.go
 │   │   └── valid_parentheses.go
 │   ├── queue/
@@ -224,6 +226,7 @@ go-algorithm-lab/
 │   │   ├── max_consecutive_ones_test.go
 │   │   └── max_sum_subarray_test.go
 │   ├── stack/
+│   │   ├── implement_stack_using_queues_test.go
 │   │   ├── min_stack_test.go
 │   │   └── valid_parentheses_test.go
 │   ├── queue/
