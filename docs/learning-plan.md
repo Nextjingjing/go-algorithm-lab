@@ -10,11 +10,10 @@ other people can use.
 
 ## Read Only This Section First
 
-You are currently in the Foundation stage. The current replay focus is:
+You are currently in the Foundation stage. The next exercise is:
 
-1. Explain your map-based `Linked List Cycle`
-   ([LC #141](https://leetcode.com/problems/linked-list-cycle/)): what the map key
-   represents, and why reaching `nil` means no cycle.
+1. Implement `Middle of the Linked List`
+   ([LC #876](https://leetcode.com/problems/middle-of-the-linked-list/)) from the setup scaffold.
 
 Do not look at the entire roadmap every time. Choose one exercise at a time.
 
@@ -125,6 +124,7 @@ An exercise is `done` when:
 | Reverse Linked List | [LC #206](https://leetcode.com/problems/reverse-linked-list/) | Implementation, tests, and cmd example complete — linked list | explain the stack approach, cycle prevention, and `O(n)` extra space |
 | Merge Two Sorted Lists | [LC #21](https://leetcode.com/problems/merge-two-sorted-lists/) | Implementation, tests, and cmd example complete — linked list | explain pointer movement, tail attachment, and allocation trade-offs |
 | Linked List Cycle | [LC #141](https://leetcode.com/problems/linked-list-cycle/) | Implementation, tests, and cmd example complete — linked list | compare pointer-map `O(n)` space with the two-pointer `O(1)` approach |
+| Middle of the Linked List | [LC #876](https://leetcode.com/problems/middle-of-the-linked-list/) | Setup complete; implementation in progress — linked list | explain which node is chosen for even-length lists |
 
 The agent helped with several `cmd/` examples, doc comments, and tests. The
 next evidence should therefore be learner-owned test design, not immediately

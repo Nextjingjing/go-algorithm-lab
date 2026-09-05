@@ -95,6 +95,7 @@ go run ./cmd/stack-using-queues
 go run ./cmd/reverse-linked-list
 go run ./cmd/merge-two-sorted-lists
 go run ./cmd/linked-list-cycle
+go run ./cmd/middle-of-linked-list
 ```
 
 ## Structure
@@ -132,6 +133,7 @@ go-algorithm-lab/
 │   ├── linked-list/
 │   │   ├── linked_list_cycle.go
 │   │   ├── merge_two_sorted_lists.go
+│   │   ├── middle_of_linked_list.go
 │   │   └── reverse_linked_list.go
 │   ├── prefix-suffix/
 │   │   ├── highest_altitude.go
@@ -226,6 +228,7 @@ go-algorithm-lab/
 │   ├── linked-list/
 │   │   ├── linked_list_cycle_test.go
 │   │   ├── merge_two_sorted_lists_test.go
+│   │   ├── middle_of_linked_list_test.go
 │   │   └── reverse_linked_list_test.go
 │   ├── prefix-suffix/
 │   │   ├── highest_altitude_test.go
