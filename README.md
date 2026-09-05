@@ -92,6 +92,7 @@ go run ./cmd/min-stack
 go run ./cmd/queue-using-stacks
 go run ./cmd/queue-using-slice
 go run ./cmd/stack-using-queues
+go run ./cmd/reverse-linked-list
 ```
 
 ## Structure
@@ -99,6 +100,7 @@ go run ./cmd/stack-using-queues
 - `algorithms/`: Main algorithm implementations, grouped by category.
 - `algorithms/hash-map/`: Hash-map based algorithm implementations.
 - `algorithms/greedy/`: Greedy algorithms that make locally optimal choices.
+- `algorithms/linked-list/`: Linked-list algorithms and pointer practice.
 - `algorithms/stack/`: Stack-based algorithms for nested or ordered state.
 - `algorithms/queue/`: Queue-based algorithms and FIFO data structures.
 - `cmd/`: Small runnable examples with `main`.
@@ -125,6 +127,8 @@ go-algorithm-lab/
 │   │   └── merge_sort.go
 │   ├── greedy/
 │   │   └── best_time_to_buy_and_sell_stock.go
+│   ├── linked-list/
+│   │   └── reverse_linked_list.go
 │   ├── prefix-suffix/
 │   │   ├── highest_altitude.go
 │   │   ├── left_right_difference.go
@@ -215,6 +219,8 @@ go-algorithm-lab/
 │   │   └── merge_sort_test.go
 │   ├── greedy/
 │   │   └── best_time_to_buy_and_sell_stock_test.go
+│   ├── linked-list/
+│   │   └── reverse_linked_list_test.go
 │   ├── prefix-suffix/
 │   │   ├── highest_altitude_test.go
 │   │   ├── left_right_difference_test.go

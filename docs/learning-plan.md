@@ -12,9 +12,9 @@ other people can use.
 
 You are currently in the Foundation stage. The current replay focus is:
 
-1. Explain `Stack Using Queues`
-   ([LC #225](https://leetcode.com/problems/implement-stack-using-queues/)) without
-   looking at the code: why `Pop` rotates `n-1` values and why `Top` rotates `n`.
+1. Explain your stack-based `Reverse Linked List`
+   ([LC #206](https://leetcode.com/problems/reverse-linked-list/)): why clearing
+   each old `Next` prevents a cycle, and its space trade-off versus pointer reversal.
 
 Do not look at the entire roadmap every time. Choose one exercise at a time.
 
@@ -122,6 +122,7 @@ An exercise is `done` when:
 | Implement Queue using Stacks | [LC #232](https://leetcode.com/problems/implement-queue-using-stacks/) | Implementation, tests, and cmd example complete — queue | explain the two-stack invariant and amortized `O(1)` operations |
 | Queue Using Slice | `Lab` | Implementation, tests, and cmd example complete — queue | explain FIFO order and the time cost of removing the front element |
 | Stack Using Queues | [LC #225](https://leetcode.com/problems/implement-stack-using-queues/) | Implementation, tests, and cmd example complete — stack | explain queue rotations and `O(n)` Pop/Top cost |
+| Reverse Linked List | [LC #206](https://leetcode.com/problems/reverse-linked-list/) | Implementation, tests, and cmd example complete — linked list | explain the stack approach, cycle prevention, and `O(n)` extra space |
 
 The agent helped with several `cmd/` examples, doc comments, and tests. The
 next evidence should therefore be learner-owned test design, not immediately
