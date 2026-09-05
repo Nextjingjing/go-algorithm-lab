@@ -12,9 +12,9 @@ other people can use.
 
 You are currently in the Foundation stage. The current replay focus is:
 
-1. Explain `Merge Two Sorted Lists`
-   ([LC #21](https://leetcode.com/problems/merge-two-sorted-lists/)): which pointer
-   moves after each comparison, and why the remaining tail is attached after the loop.
+1. Explain your map-based `Linked List Cycle`
+   ([LC #141](https://leetcode.com/problems/linked-list-cycle/)): what the map key
+   represents, and why reaching `nil` means no cycle.
 
 Do not look at the entire roadmap every time. Choose one exercise at a time.
 
@@ -124,6 +124,7 @@ An exercise is `done` when:
 | Stack Using Queues | [LC #225](https://leetcode.com/problems/implement-stack-using-queues/) | Implementation, tests, and cmd example complete — stack | explain queue rotations and `O(n)` Pop/Top cost |
 | Reverse Linked List | [LC #206](https://leetcode.com/problems/reverse-linked-list/) | Implementation, tests, and cmd example complete — linked list | explain the stack approach, cycle prevention, and `O(n)` extra space |
 | Merge Two Sorted Lists | [LC #21](https://leetcode.com/problems/merge-two-sorted-lists/) | Implementation, tests, and cmd example complete — linked list | explain pointer movement, tail attachment, and allocation trade-offs |
+| Linked List Cycle | [LC #141](https://leetcode.com/problems/linked-list-cycle/) | Implementation, tests, and cmd example complete — linked list | compare pointer-map `O(n)` space with the two-pointer `O(1)` approach |
 
 The agent helped with several `cmd/` examples, doc comments, and tests. The
 next evidence should therefore be learner-owned test design, not immediately

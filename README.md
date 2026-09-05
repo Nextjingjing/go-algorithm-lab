@@ -94,6 +94,7 @@ go run ./cmd/queue-using-slice
 go run ./cmd/stack-using-queues
 go run ./cmd/reverse-linked-list
 go run ./cmd/merge-two-sorted-lists
+go run ./cmd/linked-list-cycle
 ```
 
 ## Structure
@@ -129,6 +130,7 @@ go-algorithm-lab/
 │   ├── greedy/
 │   │   └── best_time_to_buy_and_sell_stock.go
 │   ├── linked-list/
+│   │   ├── linked_list_cycle.go
 │   │   ├── merge_two_sorted_lists.go
 │   │   └── reverse_linked_list.go
 │   ├── prefix-suffix/
@@ -222,6 +224,7 @@ go-algorithm-lab/
 │   ├── greedy/
 │   │   └── best_time_to_buy_and_sell_stock_test.go
 │   ├── linked-list/
+│   │   ├── linked_list_cycle_test.go
 │   │   ├── merge_two_sorted_lists_test.go
 │   │   └── reverse_linked_list_test.go
 │   ├── prefix-suffix/
