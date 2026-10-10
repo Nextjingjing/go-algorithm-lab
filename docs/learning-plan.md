@@ -10,10 +10,10 @@ other people can use.
 
 ## Read Only This Section First
 
-You are currently in the Foundation stage. The next exercise is:
+The learner selected the next exercise:
 
-1. Implement `Middle of the Linked List`
-   ([LC #876](https://leetcode.com/problems/middle-of-the-linked-list/)) from the setup scaffold.
+1. Implement `Search Insert Position`
+   ([LC #35](https://leetcode.com/problems/search-insert-position/)) from the setup scaffold.
 
 Do not look at the entire roadmap every time. Choose one exercise at a time.
 
@@ -101,6 +101,7 @@ An exercise is `done` when:
 | Two Sum | [LC #1](https://leetcode.com/problems/two-sum/) | Brute-force and hash-map versions done | replay without notes; explain why indexes differ |
 | Valid Anagram | [LC #242](https://leetcode.com/problems/valid-anagram/) | Implementation, tests, and cmd example complete | replay without notes; explain character-count invariant |
 | Binary Search | [LC #704](https://leetcode.com/problems/binary-search/) | Implementation and tests complete | replay without notes; explain `left > right` base case |
+| Search Insert Position | [LC #35](https://leetcode.com/problems/search-insert-position/) | Setup complete; implementation in progress — binary search | explain what the final search boundary means when the target is absent |
 | Merge Sort | `Lab` | First complete version | trace 2- and 3-element inputs by hand |
 | Sum Array | `Lab` | Done | replay without notes |
 | Move Zeroes | [LC #283](https://leetcode.com/problems/move-zeroes/) | Done with two pointers | replay without notes; explain invariant and `O(n)` |

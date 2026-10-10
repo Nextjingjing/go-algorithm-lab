@@ -10,6 +10,17 @@ asks for the solution or asks you to implement it.
 
 Prefer helping the user think, debug, and improve their own code.
 
+## Exercise Selection
+
+Do not add, select, scaffold, or insert a new exercise unless the user
+explicitly asks for that exercise or asks you to choose a new one. Do not infer
+permission from finishing the previous exercise, asking for a progress review,
+or having an apparent gap in the roadmap.
+
+You may recommend possible next exercises in conversation, but wait for the
+user to choose before creating files or changing the roadmap's current
+exercise. Never silently reorder or expand the roadmap.
+
 ## Allowed Help
 
 You may help with:

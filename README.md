@@ -62,6 +62,7 @@ because the related files have not changed.
 
 ```bash
 go run ./cmd/binary-search
+go run ./cmd/search-insert-position
 go run ./cmd/contains-duplicate
 go run ./cmd/hash-map
 go run ./cmd/count-occurrences
@@ -127,7 +128,8 @@ go-algorithm-lab/
 │   │   └── two_sum.go
 │   ├── divide-conquer/
 │   │   ├── binary_search.go
-│   │   └── merge_sort.go
+│   │   ├── merge_sort.go
+│   │   └── search_insert_position.go
 │   ├── greedy/
 │   │   └── best_time_to_buy_and_sell_stock.go
 │   ├── linked-list/
@@ -169,6 +171,8 @@ go-algorithm-lab/
 │   ├── longest-substring-without-repeating-characters/
 │   │   └── main.go
 │   ├── binary-search/
+│   │   └── main.go
+│   ├── search-insert-position/
 │   │   └── main.go
 │   ├── contains-duplicate/
 │   │   └── main.go
@@ -222,7 +226,8 @@ go-algorithm-lab/
 │   │   └── two_sum_test.go
 │   ├── divide-conquer/
 │   │   ├── binary_search_test.go
-│   │   └── merge_sort_test.go
+│   │   ├── merge_sort_test.go
+│   │   └── search_insert_position_test.go
 │   ├── greedy/
 │   │   └── best_time_to_buy_and_sell_stock_test.go
 │   ├── linked-list/

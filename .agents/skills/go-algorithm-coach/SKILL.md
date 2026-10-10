@@ -23,6 +23,9 @@ files and learning records consistent.
   when the learner remains blocked.
 - Do not replace or complete the algorithm body unless the user explicitly asks
   for the answer or implementation.
+- Do not choose, add, or scaffold a new exercise unless the learner explicitly
+  asks for that exercise or asks you to choose one. Recommendations alone must
+  not change files or the roadmap's current exercise.
 - It is safe to add or improve doc comments, tests, `cmd/` examples, README
   entries, and learning documentation when requested.
 - If an algorithm is incorrect, create tests that expose the behavior and state
@@ -80,6 +83,10 @@ beginner-friendly and concrete.
 
 When the user says “setup lab” or asks to set up a new exercise, setup means
 creating the learning scaffold, not solving the algorithm.
+
+Do not start this workflow merely because an earlier exercise is complete or a
+roadmap gap exists. It requires an explicit request to set up or select a new
+exercise.
 
 - Create the implementation file with the package, exported function signature,
   accurate Go doc comment, and a `TODO` stub (for example, `panic("TODO: ...")`).
