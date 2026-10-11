@@ -19,6 +19,9 @@ algorithm solution unless explicitly asked.
 - Canonical skill: `.agents/skills/go-algorithm-coach/SKILL.md`
 - Claude project path: `.claude/skills/go-algorithm-coach/SKILL.md`
 
+Search Insert Position ([LC #35](https://leetcode.com/problems/search-insert-position/))
+has a completed implementation, 10 passing test cases, and a runnable example.
+
 ## Run tests
 
 Run only separated tests:
@@ -63,6 +66,7 @@ because the related files have not changed.
 ```bash
 go run ./cmd/binary-search
 go run ./cmd/search-insert-position
+go run ./cmd/find-minimum-in-rotated-sorted-array
 go run ./cmd/contains-duplicate
 go run ./cmd/hash-map
 go run ./cmd/count-occurrences
@@ -99,6 +103,10 @@ go run ./cmd/linked-list-cycle
 go run ./cmd/middle-of-linked-list
 ```
 
+Find Minimum in Rotated Sorted Array ([LC #153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/))
+is complete with an iterative `O(log n)` implementation, 11 behavior tests,
+and a runnable example.
+
 ## Structure
 
 - `algorithms/`: Main algorithm implementations, grouped by category.
@@ -127,6 +135,7 @@ go-algorithm-lab/
 │   │   ├── sum_array.go
 │   │   └── two_sum.go
 │   ├── divide-conquer/
+│   │   ├── find_minimum_in_rotated_sorted_array.go
 │   │   ├── binary_search.go
 │   │   ├── merge_sort.go
 │   │   └── search_insert_position.go
@@ -171,6 +180,8 @@ go-algorithm-lab/
 │   ├── longest-substring-without-repeating-characters/
 │   │   └── main.go
 │   ├── binary-search/
+│   │   └── main.go
+│   ├── find-minimum-in-rotated-sorted-array/
 │   │   └── main.go
 │   ├── search-insert-position/
 │   │   └── main.go
@@ -225,6 +236,7 @@ go-algorithm-lab/
 │   │   ├── reverse_slice_test.go
 │   │   └── two_sum_test.go
 │   ├── divide-conquer/
+│   │   ├── find_minimum_in_rotated_sorted_array_test.go
 │   │   ├── binary_search_test.go
 │   │   ├── merge_sort_test.go
 │   │   └── search_insert_position_test.go

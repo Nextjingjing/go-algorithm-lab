@@ -98,8 +98,8 @@ hint-and-retry แล้วยังติด ให้เปลี่ยนเ�
 
 ## Next Small Action
 
-Replay `Valid Anagram` จากความจำ โดยเขียน invariant หนึ่งประโยคว่า map เก็บอะไร
-และจด test cases เอง 3 case ก่อนให้ agent review
+อธิบาย invariant ของ `FindMin` ว่าทำไมค่าต่ำสุดยังอยู่ใน `[left, right]`
+หลังปรับขอบเขต แล้วลอง replay โดยไม่ดูโค้ด
 
 ## Review History
 
@@ -146,6 +146,14 @@ Replay `Valid Anagram` จากความจำ โดยเขียน inva
 | 2026-09-05 | Implemented `Merge Two Sorted Lists` by comparing current values, advancing the selected input pointer, and attaching the remaining list only after one input is exhausted; focused and full Go tests passed after relocating an initially premature tail attachment | New evidence of debugging loop scope and maintaining two input pointers plus an output tail in a linked-list merge; tests and cmd example were agent-generated scaffolding | Explain why attaching a remaining tail inside the comparison loop is premature and state the time/space cost of the current node-allocation approach |
 | 2026-09-05 | Implemented `Linked List Cycle` using a map keyed by `*ListNode` pointers; focused and full Go tests passed for a middle cycle, self-cycle, ordinary list, and nil list | New evidence of selecting pointer identity rather than node values to detect revisits and handling the nil boundary correctly; tests and cmd example were agent-generated scaffolding | Compare this `O(n)`-space method with slow/fast pointers, which avoid the visited map |
 | 2026-09-05 | Progress review after the queue, stack, and linked-list sequence: completed several learner-authored implementations, including alternate valid strategies, and used review feedback to repair pointer/state transitions | Evidence supports steady independent implementation at the current exercise level with syntax and boundary questions used productively; no spaced no-notes replay evidence yet | For the next completed exercise, propose three test cases yourself and explain one invariant plus time/space complexity |
+
+| 2026-10-10 | Submitted a complete iterative `SearchInsert` implementation for review; all 10 matching cases, full Go tests, and the cmd example passed | New evidence of a correct inclusive-range binary-search implementation; provenance beyond the submitted attempt and independent explanation are unverified; tests and cmd are agent-created support | Trace an absent target, explain the final `left`, and state time/space complexity |
+
+| 2026-10-10 | Submitted recursive `FindMin` that takes the minimum of both halves; 10 behavior tests, full Go tests, and cmd passed | Evidence of correct recursive base cases and combining subproblem results; both halves are visited, so the logarithmic-time requirement is unmet; independent complexity explanation is not yet observed | Trace total work and reason about discarding one half using sorted order |
+
+| 2026-10-11 | Learner proposed `[3,4,5,6,1,2]` as a new `FindMin` test input; agent supplied expected minimum `1` and ran it; current implementation returned `2` | New evidence of learner-selected test input exposing an incorrect search-boundary update; expected output and test code were agent-provided | Trace the first iteration and identify which values are discarded |
+
+| 2026-10-11 | Replaced the two-half recursion with an iterative binary search and corrected `right` from an element value to the last index after review; all 11 focused tests passed | Evidence of applying boundary feedback and narrowing one half per iteration; current code meets O(log n) time and O(1) auxiliary space; independent invariant explanation and replay remain unverified | Explain why the final-value comparison preserves the minimum, then replay without notes |
 
 ## Rules For Future Updates
 

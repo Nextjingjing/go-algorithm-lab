@@ -13,6 +13,10 @@ func TestSearchInsert(t *testing.T) {
 		target int
 		want   int
 	}{
+		{name: "finds first value", nums: []int{1, 3, 5, 6}, target: 1, want: 0},
+		{name: "finds last value", nums: []int{1, 3, 5, 6}, target: 6, want: 3},
+		{name: "finds only value", nums: []int{4}, target: 4, want: 0},
+		{name: "inserts among negative values", nums: []int{-8, -3, 2}, target: -5, want: 1},
 		{
 			name:   "finds existing value",
 			nums:   []int{1, 3, 5, 6},

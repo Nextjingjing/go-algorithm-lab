@@ -10,10 +10,14 @@ other people can use.
 
 ## Read Only This Section First
 
-The learner selected the next exercise:
+The learner selected `Find Minimum in Rotated Sorted Array`
+([LC #153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)).
+The iterative binary-search implementation is complete and validated on
+2026-10-11, including all 11 behavior tests.
 
-1. Implement `Search Insert Position`
-   ([LC #35](https://leetcode.com/problems/search-insert-position/)) from the setup scaffold.
+1. Explain why comparing against the final value preserves the minimum within
+   `[left, right]`; replay the implementation without notes.
+2. Run `go test ./tests/divide-conquer -run '^TestFindMin$' -v`.
 
 Do not look at the entire roadmap every time. Choose one exercise at a time.
 
@@ -101,7 +105,8 @@ An exercise is `done` when:
 | Two Sum | [LC #1](https://leetcode.com/problems/two-sum/) | Brute-force and hash-map versions done | replay without notes; explain why indexes differ |
 | Valid Anagram | [LC #242](https://leetcode.com/problems/valid-anagram/) | Implementation, tests, and cmd example complete | replay without notes; explain character-count invariant |
 | Binary Search | [LC #704](https://leetcode.com/problems/binary-search/) | Implementation and tests complete | replay without notes; explain `left > right` base case |
-| Search Insert Position | [LC #35](https://leetcode.com/problems/search-insert-position/) | Setup complete; implementation in progress — binary search | explain what the final search boundary means when the target is absent |
+| Search Insert Position | [LC #35](https://leetcode.com/problems/search-insert-position/) | Implementation, tests, and cmd example complete — binary search | explain what the final search boundary means when the target is absent |
+| Find Minimum in Rotated Sorted Array | [LC #153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Implementation, tests, and cmd example complete — O(log n) binary search | explain the invariant and replay without notes |
 | Merge Sort | `Lab` | First complete version | trace 2- and 3-element inputs by hand |
 | Sum Array | `Lab` | Done | replay without notes |
 | Move Zeroes | [LC #283](https://leetcode.com/problems/move-zeroes/) | Done with two pointers | replay without notes; explain invariant and `O(n)` |
